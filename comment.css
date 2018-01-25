@@ -1,0 +1,33 @@
+/*评论*/
+/*评论列表*/
+#blog-comments-placeholder {
+    border-radius: 10px;
+    background: #fff;
+    padding: 30px 40px;
+}
+
+.feedback_area_title {
+    background: url(//www.cnblogs.com/skins/red_autumnal_leaves/images/titlebg.png) no-repeat left center #fff;
+    border: 1px solid #55895B;
+    border-left-width: 5px;
+    border-radius: 10px;
+    border-right-width: 5px;
+    padding: 15px 50px;
+}
+
+/* 提交评论按钮 */
+#btn_comment_submit {
+    border: solid 1px #fd6d0dd1 !important;
+    width: 90px;
+    height: 40px;
+    color: #fff !important;
+    background-color: #fd6d0dd1 !important;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*侧边评论*/
+li.recent_comment_body {
+    line-height: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+JiaThis Button BEGIN ,
+这是固定在博客右侧的一个分享按钮
+-->
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0&amp;btn=r5.gif" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<script language="javascript" type="text/javascript">
+    //生成目录索引列表
+    function GenerateContentList() {
+        var jquery_h3_list = $('#cnblogs_post_body h2');//如果你的章节标题不是h2,只需要将这里的h2换掉即可
+        if (jquery_h3_list.length > 0) {
+            var content = '';
+            content += '<div id="navCategory">';
+            content += '<p><b>文章目录</b></p>';
+            content += '<ul>';
+            for (var i = 0; i < jquery_h3_list.length; i++) {
+                var go_to_top = '<div style="text-align: right;    text-align: right;height: 0;padding: 0;overflow: hidden;visibility: hidden;"><a name="_label' + i + '"></a></div>';
+                $(jquery_h3_list[i]).before(go_to_top);
+                var li_content = '<li><a href="#_label' + i + '">' + $(jquery_h3_list[i]).text() + '</a></li>';
+                content += li_content;
+            }
+            content += '</ul>';
+            content += '</div>';
+            if ($('#cnblogs_post_body').length != 0) {
+                $($('#cnblogs_post_body')[0]).prepend(content);
+            }
+        }
+    }
+    GenerateContentList();
+</script>
+</body>
+</html>

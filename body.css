@@ -1,0 +1,106 @@
+/* 个性签名 */
+#MySignature {
+    box-shadow: 8px 1px 10px #989898;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #FFF;
+    font-size: 17px;
+    border-left: solid 5px #55895B;
+    background: #F3F3F3;
+    border-radius: 10px 10px 50% 10px;
+    line-height: 2.4;
+    margin: 40px 0;
+}
+
+#MySignature a {
+    text-decoration: none;
+    color: #4183c4;
+    font-weight: bold;
+}
+
+#MySignature a:hover {
+    text-decoration: underline;
+    color: #f60;
+}
+
+#MySignature span {
+    color: #f60;
+}
+
+/* 标题title样式 */
+#topics .postTitle {
+    font-size: 25px;
+    padding: 0 40px;
+    border: none;
+    box-sizing: border-box;
+}
+
+#cb_post_title_url {
+    border: 1px solid #55895B;
+    border-left-width: 5px;
+    border-radius: 10px;
+    border-right-width: 5px;
+    background-position: left center;
+    padding: 15px 50px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*设置背景色和字体大小*/
+body {
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/*mainContent主体内容容器*/
+#main {
+    display: flex;
+    width: 95%;
+}
+
+#mainContent .forFlow {
+    margin: 0 0 0 310px;
+}
+
+#mainContent {
+    margin: 0 0 0 -310px;
+}
+
+#post_detail {
+    overflow: hidden;
+}
+
+/* 主体内容样式 */
+.postBody {
+    padding: 20px 40px;
+}
+
+#cnblogs_post_body {
+    font-size: 15px;
+}
+
+#cnblogs_post_body h2 {
+    /*标题h2*/
+    border-left: 5px solid #55895B;
+    padding: 10px 20px;
+    line-height: 2;
+    background: #d6dbdf8a;
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+#cnblogs_post_body h3 {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #55895B;
+    font-size: 20px;
+}
+
+#cnblogs_post_body h4{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#topics .postDesc {
+    display: none;
+}

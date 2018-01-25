@@ -1,0 +1,39 @@
+/* 关注收藏等几个按钮 */
+#green_channel {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 15px;
+    width: 400px;
+}
+
+#green_channel a {
+    border-radius: 3px;
+    text-shadow: none;
+    font-weight: normal;
+    box-shadow: none;
+}
+
+/* 禁用下划线 */
+.postBody a:link, .postBody a:visited, .postBody a:active {
+    text-decoration: none;
+}
+
+/* 上一篇下一篇 */
+#post_next_prev {
+    font-size: 14px;
+    color: #535353;
+}
+
+/*底部隐藏作者，隐藏推荐和反对*/
+#author_profile {
+    display: none;
+}
+
+#div_digg {
+    display: none;
+}
+
+/*隐藏广告*/
+#ad_t2, #cnblogs_c1, #under_post_news, #cnblogs_c2, #under_post_kb {
+    display: none;
+}
